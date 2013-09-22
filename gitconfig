@@ -1,0 +1,32 @@
+[core]
+  autocrlf = false
+  safecrlf = true
+
+[color]
+  ui = true
+  diff = auto
+  status = auto
+
+[color "diff"]
+  meta = cyan
+  frag = magenta
+  old = red
+  new = green
+
+[color "status"]
+  added = green
+  changed = red
+  untracked = cyan
+
+[format]
+  pretty = "Commit:  %C(yellow)%H%nAuthor:   %C(green)%aN <%aE>%nDate:   (%C(red)%ar%Creset) %ai%nSubject: %s%n%n%b"
+
+[alias]
+  aa = add --all
+  di = diff
+  co = checkout
+  st = status
+  br = branch
+  ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate --numstat
+  ld = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cgreen\\ [%cn]" --decorate --date=relative
+  lt = log --graph --oneline --decorate --all
