@@ -1,0 +1,21 @@
+[submodule "vim/bundle/ctrlp"]
+	path = vim/bundle/ctrlp
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "vim/bundle/html5-syntax"]
+	path = vim/bundle/html5-syntax
+	url = git@github.com:othree/html5-syntax.vim.git
+[submodule "vim/bundle/php"]
+	path = vim/bundle/php
+	url = git@github.com:StanAngeloff/php.vim.git
+[submodule "vim/bundle/supertab"]
+	path = vim/bundle/supertab
+	url = git@github.com:ervandew/supertab.git
+[submodule "vim/bundle/css3-syntax"]
+	path = vim/bundle/css3-syntax
+	url = git@github.com:hail2u/vim-css3-syntax.git
+[submodule "vim/bundle/javascript"]
+	path = vim/bundle/javascript
+	url = git@github.com:pangloss/vim-javascript.git
+[submodule "vim/bundle/powerline"]
+	path = vim/bundle/powerline
+	url = git@github.com:Lokaltog/vim-powerline.git
