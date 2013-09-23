@@ -5,34 +5,34 @@ Contains some basic configuration for Vim, Tmux, and Git.
 
 Install:
 
-1. Clone this repository to your Mac or Linux Home directory.
+1. Clone this repository to your Mac or Linux Home directory. <br>
 
 
-2. If you haven't installed Vim or Tmux, you can use homebrew, apt-get, yum to install them.
+2. If you haven't installed Vim or Tmux, you can use homebrew, apt-get, yum to install them. <br>
 
 
-3. After cloning:
-   ln -s  ~/.dotfiles/vim ~/.vim
-   ln -s  ~/.dotfiles/vimrc ~/.vimrc
-   ln -s  ~/.dotfiles/tmux.conf ~/.tmux.conf
+3. After cloning: <br>
+   ln -s  ~/.dotfiles/vim ~/.vim <br>
+   ln -s  ~/.dotfiles/vimrc ~/.vimrc <br>
+   ln -s  ~/.dotfiles/tmux.conf ~/.tmux.conf <br><br>
    
-   Optional:
-   ln -s  ~/.dotfiles/bash_profile ~/.bash_profile (show branch name when you are in a git directory)
-   ln -s  ~/.dotfiles/gitconfig ~/.gitconfig
+   Optional: <br>
+   ln -s  ~/.dotfiles/bash_profile ~/.bash_profile (show branch name when you are in a git directory) <br>
+   ln -s  ~/.dotfiles/gitconfig ~/.gitconfig <br><br>
    
 
-4. cd ~/.dotfiles
-   git submodule init
-   git submodule update
-   (The submodule will install all vim plugins)
+4. cd ~/.dotfiles <br>
+   git submodule init <br>
+   git submodule update <br>
+   (The submodule will install all vim plugins) <br><br>
 
 
-5. If you want to update all vim bundled plugins later:
-   git submodule foreach git pull origin master
+5. If you want to update all vim bundled plugins later: <br>
+   git submodule foreach git pull origin master <br><br>
 
-   Or update one plugin:
-   cd ~/.dotfiles/vim/bundle/plugin_name
-   git pull origin master
+   Or update one plugin: <br>
+   cd ~/.dotfiles/vim/bundle/plugin_name <br>
+   git pull origin master <br>
 
 
 
