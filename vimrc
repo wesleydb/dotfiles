@@ -132,3 +132,35 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+
+" With a map leader it's possible to do extra key combinations like <leader>w saves the current file
+let mapleader = ","
+let g:mapleader = ","
+
+" Easy escaping to normal model
+imap jj <esc>
+
+" Auto change directory to match current file ,cd
+nnoremap ,cd :cd %:p:h<CR>:pwd<CR>
+
+highlight Search cterm=underline
+
+" Remove search results
+command! H let @/=""
+
+abbrev gm !php artisan generate:model
+abbrev gc !php artisan generate:controller
+abbrev gmig !php artisan generate:migration
+
+" Laravel framework commons
+nmap <leader>lr :e app/routes.php<cr>
+nmap <leader>lca :e app/config/app.php<cr>81Gf(%O
+nmap <leader>lcd :e app/config/database.php<cr>
+nmap <leader>lc :e composer.json<cr>
+
+" Open splits
+nmap vs :vsplit<cr>
+nmap sp :split<cr>
+
+" Create/edit file in the current directory
+nmap :ed :edit %:p:h/
