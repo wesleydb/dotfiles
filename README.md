@@ -1,13 +1,13 @@
 .dotfiles
 =========
-Basic configuration for Vim, Tmux, and Git.
+Basic configuration for Vim, Tmux, Git and Ack.
 
 Install:
 
 Clone this repository to your Mac or Linux Home directory.
 
 
-Note: If you haven't installed Vim or Tmux or Git, use homebrew or apt-get to install them.
+Note: If you haven't installed Vim or Tmux or Git or Ack, use homebrew or apt-get to install them.
 
 
 Symlink the files:
