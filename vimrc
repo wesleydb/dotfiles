@@ -32,6 +32,7 @@ set encoding=utf-8
 set showcmd                                   " display incomplete(partial) commands in status line
 set showmatch                                 " show matching brackets
 set mouse=a
+set cursorline
 
 "" Whitespace
 set nowrap                                    " dont' wrap lines
