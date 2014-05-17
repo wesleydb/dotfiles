@@ -22,6 +22,7 @@ Symlink the files:
 Install vim bundled plugins:
 *   Launch vim and run **:PluginInstall**
 *   Or to install from command line: **vim +PluginInstall +qall**
+*   "You Complete Me" Plugin need compiling: **cd ~/.vim/bundle/YouCompleteMe** -----> **./install.sh**
 
 
 To update vim bundled plugins:
