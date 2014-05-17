@@ -1,14 +1,36 @@
 set nocompatible                              " choose no campatibility with legacy vi
+filetype off                                  
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+" call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'gmarik/Vundle.vim'
+
+Plugin 'kien/ctrlp.vim'
+
+Plugin 'Lokaltog/vim-powerline'
+
+Plugin 'ervandew/supertab'
+
+Plugin 'pangloss/vim-javascript'
+
+Plugin 'hail2u/vim-css3-syntax'
+
+Plugin 'othree/html5.vim'
+
+" All of your Plugins must be added before the following line
+call vundle#end()          
+filetype plugin indent on 
+
 set t_Co=256                                  " 256-color terminal
-
-execute pathogen#infect()
-Helptags
 syntax on
-
 set encoding=utf-8
 set showcmd                                   " display incomplete(partial) commands in status line
 set showmatch                                 " show matching brackets
-filetype plugin indent on                     " load file type plugins + indentation
 set mouse=a
 
 "" Whitespace
