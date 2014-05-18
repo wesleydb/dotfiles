@@ -43,6 +43,7 @@ set showcmd                                   " display incomplete(partial) comm
 set showmatch                                 " show matching brackets
 set mouse=a
 set cursorline
+set backspace=indent,eol,start
 
 "" Whitespace
 set nowrap                                    " dont' wrap lines
