@@ -1,13 +1,14 @@
 .dotfiles
 =========
-Basic configuration for Vim, Tmux, Git and Ack.
+Basic configuration for Vim, Tmux, Git and Ack. (Note: If you haven't installed Vim or Tmux or Git or Ack, use homebrew or apt-get to install them.)
 
 Install:
 
 Clone this repository to your Mac or Linux Home directory.
 
 
-Note: If you haven't installed Vim or Tmux or Git or Ack, use homebrew or apt-get to install them.
+Install oh-my-zsh:
+**curl -L http://install.ohmyz.sh | sh**      Or      **wget --no-check-certificate http://install.ohmyz.sh -O - | sh**
 
 
 Symlink the files:
@@ -20,9 +21,13 @@ Symlink the files:
 *   **ln -s  ~/.dotfiles/ackrc ~/.ackrc**
 
 Install vim bundled plugins:
-*   Launch vim and run **:PluginInstall**
+*   Launch vim and run **:PluginInstall**     
 *   Or to install from command line: **vim +PluginInstall +qall**
 *   "You Complete Me" Plugin need compiling: **cd ~/.vim/bundle/YouCompleteMe** -----> **./install.sh**
+
+
+Add alias to zshrc:
+*   add **source ~/.zshrc** to zshrc file 
 
 
 To update vim bundled plugins:
