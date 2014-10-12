@@ -12,8 +12,6 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'kien/ctrlp.vim'
 
-Plugin 'Lokaltog/vim-powerline'
-
 Plugin 'ervandew/supertab'
 
 Plugin 'pangloss/vim-javascript'
